@@ -9,3 +9,4 @@ Terminal "
     "devStart": "nodemon server.js"
  }
 4. npm run devStart
+![img!]https://user-images.githubusercontent.com/42502061/235326009-b1504346-d2a2-420f-9729-715f55dae609.png)
