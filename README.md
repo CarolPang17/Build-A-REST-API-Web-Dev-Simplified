@@ -75,7 +75,7 @@ full code in commit "routes skeleton set up"
 #### testing if the routes is working 
 full code in commit "testing first routes"
 to test if the routes is working, we can :
-1. had "REST Client" extension installed 
+1. had "REST Client" extension installed   <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235585196-5bdcab05-f0cb-4f4b-bb3e-1729cc1f5a23.png)
 2. create a route.rest file
 3. adding a respond send in GET
@@ -85,12 +85,18 @@ to test if the routes is working, we can :
     res.send('Hello World')
     })
    ```
-4. request http://localhost:3000/subscribers
+4. request http://localhost:3000/subscribers   <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235584822-07b6dc5d-00ad-4f33-9eee-717dc4a900d4.png)
 5. click on Send Request 
-6. and we should see the respond as 'Hello World' at the end
+6. and we should see the respond as 'Hello World' at the end   <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235584969-8646781c-1e27-48d9-9404-d4725c606cc9.png)
 
+# Step 6
+#### create models
+full code in commit "create models folder"
+1. create models folder
+2. in the models folder, create subscribers.js
+3. put code ```const mongoose = require('mongoose')``` in subscribers.js
 
 
 

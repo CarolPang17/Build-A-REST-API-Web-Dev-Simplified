@@ -7,7 +7,7 @@ router.get('/',(req, res) => {
 })
 // Getting One
 router.get('/:id',(req, res) => {
-  
+  res.send(req.params.id)
 })
 // Creating one
 router.post('/',(req, res) => {
