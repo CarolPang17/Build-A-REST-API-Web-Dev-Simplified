@@ -1,10 +1,16 @@
 follow step from https://www.youtube.com/watch?v=fgTGADljAeg&t=345s
 
 # Step 1 
+#### start mongodb 
+In Terminal directed to home:
+1. brew services start mongodb/brew/mongodb-community
+2. shoulde see "Successfully started `mongodb-community`"
+   ![img!](https://user-images.githubusercontent.com/42502061/235592026-e5d3025f-0483-4ae4-9478-fe02262c2a8f.png)
+
+# Step 2
 #### intall dependencies & devDependencies
 full code in commit "changing scripts test to devStart" 
-
-In Terminal:
+In Terminal directed to the project folder:
 1. npm init - y
 2. npm i express mongoose
 3. npm i --save-dev dotenv nodemon
@@ -12,7 +18,7 @@ In Terminal:
    ![img!](https://user-images.githubusercontent.com/42502061/235327162-b545e8e9-1380-46a0-9209-64e27d45d26b.png)
 5. npm run devStart
 
-# Step 2 
+# Step 3
 #### create server.js file
 full code in commit "adding express.json"
 
@@ -34,7 +40,7 @@ full code in commit "adding express.json"
     ```
    <img src="https://user-images.githubusercontent.com/42502061/235326009-b1504346-d2a2-420f-9729-715f55dae609.png" width="400">
 
-# Step 3
+# Step 4
 #### create and connect to routes
 full code in commit "connected server and routes"
 
@@ -56,7 +62,7 @@ full code in commit "connected server and routes"
    ```
 5. now we connected server.js and routes file
 
-# Step 4
+# Step 5
 #### adding routes features 
 full code in commit "routes skeleton set up"
 
@@ -71,7 +77,7 @@ full code in commit "routes skeleton set up"
 2. adding basic skeleton configuration   <br />
       <img src="https://user-images.githubusercontent.com/42502061/235408869-dba758b3-8e20-41ed-babf-40a2924b7284.png" width="350">
 
-# Step 5
+# Step 6
 #### testing if the routes is working 
 full code in commit "testing first routes"
 to test if the routes is working, we can :
@@ -91,12 +97,26 @@ to test if the routes is working, we can :
 6. and we should see the respond as 'Hello World' at the end   <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235584969-8646781c-1e27-48d9-9404-d4725c606cc9.png)
 
-# Step 6
+# Step 7
 #### create models
 full code in commit "create models folder"
 1. create models folder
 2. in the models folder, create subscribers.js
-3. put code ```const mongoose = require('mongoose')``` in subscribers.js
+3. in subscribers.js, put code 
+   ```const mongoose = require('mongoose')```
+   ![img!](https://user-images.githubusercontent.com/42502061/235589020-5c92fdcf-da63-4949-8d50-d6554a680b2f.png)
 
+# Step 8
+#### create Schema
+full code in commit "create Schema"
+1. in the models/subscribers.js, add skeleton code   <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/235589605-ee5520d9-a151-4af5-a23e-1dfe09e735c2.png)
+
+2. add requirement
+3. exports the model by inputting
+   ```module.exports = mongoose.model('Subscriber', subscriberSchema)```
+   which 'Subscriber' is the database name. 
+   ![img!](https://user-images.githubusercontent.com/42502061/235591015-fc49132c-d5c7-48cf-ab20-44f36ec4ddfa.png)
+ 
 
 
