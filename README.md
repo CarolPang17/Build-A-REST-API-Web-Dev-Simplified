@@ -61,10 +61,36 @@ full code in commit "connected server and routes"
 full code in commit "routes skeleton set up"
 
 1. adding to do list in subscribers.js  <br />
-   <img src="https://user-images.githubusercontent.com/42502061/235408244-66e922d5-eada-4362-aa38-9977510e1b7a.png" width="300">
-2. adding basic skeleton configuration
+   ```
+   // Getting all
+   // Getting One
+   // Creating one
+   // Updating One
+   // Deleting One
+   ```
+2. adding basic skeleton configuration   <br />
       <img src="https://user-images.githubusercontent.com/42502061/235408869-dba758b3-8e20-41ed-babf-40a2924b7284.png" width="350">
 
-   
+# Step 5
+#### testing if the routes is working 
+full code in commit "testing first routes"
+to test if the routes is working, we can :
+1. had "REST Client" extension installed 
+   ![img!](https://user-images.githubusercontent.com/42502061/235585196-5bdcab05-f0cb-4f4b-bb3e-1729cc1f5a23.png)
+2. create a route.rest file
+3. adding a respond send in GET
+    ```
+    // Getting all
+    router.get('/',(req, res) => {
+    res.send('Hello World')
+    })
+   ```
+4. request http://localhost:3000/subscribers
+   ![img!](https://user-images.githubusercontent.com/42502061/235584822-07b6dc5d-00ad-4f33-9eee-717dc4a900d4.png)
+5. click on Send Request 
+6. and we should see the respond as 'Hello World' at the end
+   ![img!](https://user-images.githubusercontent.com/42502061/235584969-8646781c-1e27-48d9-9404-d4725c606cc9.png)
+
+
 
 
