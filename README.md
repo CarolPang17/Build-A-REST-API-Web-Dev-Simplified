@@ -143,9 +143,18 @@ full code in commit 'GET feature setup'
 3. we should see an emply array ,because we have no subscribership <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235832800-d8a33e95-97c1-4037-a7fc-90bb442bb60c.png)
 
+# Step 10
+#### adding post feature on routes
+(116:10)in video
+full code in commit 'add POST feature'
 
-
-
+1. replace the POST '/' section to <br />
+  ![img!](https://user-images.githubusercontent.com/42502061/235834712-7f6a33ce-430e-46a6-a39f-ba6caec8d5f8.png)
+1. try out on route.rest by adding below code <br />
+  ![img!](https://user-images.githubusercontent.com/42502061/235834835-4beb2243-eb77-4f05-bce4-fed5c50fc8b2.png)
+1. click on Send Request
+2. should see response like:
+   ![img!](https://user-images.githubusercontent.com/42502061/235834920-db15c59a-225b-40da-8f1a-6e581d995c23.png)
 
 
 
