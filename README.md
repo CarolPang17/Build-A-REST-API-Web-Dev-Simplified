@@ -107,16 +107,20 @@ full code in commit "create models folder"
    ![img!](https://user-images.githubusercontent.com/42502061/235589020-5c92fdcf-da63-4949-8d50-d6554a680b2f.png)
 
 # Step 8
-#### create Schema
-full code in commit "create Schema"
+#### create Schema and connect to routes
+full code in commit "create Schema and connect to routes"
 1. in the models/subscribers.js, add skeleton code   <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235589605-ee5520d9-a151-4af5-a23e-1dfe09e735c2.png)
 
-2. add requirement
-3. exports the model by inputting
+2. add requirement   <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/235593305-14ec5e9c-a11a-4096-9240-e35e099be735.png)
+3. exports the model by inputting <br />
    ```module.exports = mongoose.model('Subscriber', subscriberSchema)```
-   which 'Subscriber' is the database name. 
+   which 'Subscriber' is the database name.  <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235591015-fc49132c-d5c7-48cf-ab20-44f36ec4ddfa.png)
- 
+4. require models to routes by adding 
+   ```const Subscriber = require('../models/subscribers')```
+
+
 
 
