@@ -119,7 +119,33 @@ full code in commit "create Schema and connect to routes"
    which 'Subscriber' is the database name.  <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235591015-fc49132c-d5c7-48cf-ab20-44f36ec4ddfa.png)
 4. require models to routes by adding 
-   ```const Subscriber = require('../models/subscribers')```
+   ```const Subscriber = require('../models/subscribers')``` <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/235831640-8bebf9ca-3771-4fc9-a026-41cf76899ea4.png)
+
+
+# Step 9
+#### adding GET feature on routes
+(14:30)in video
+full code in commit 'GET feature setup'
+1. replace the GET '/' section to 
+    ```
+    // Getting all
+    router.get('/', async(req, res) => {
+      try {
+        const subscribers = await Subscriber.find()
+      } catch (err) {
+        res.status(500).json({message: err.message})
+      }
+    })
+   ```
+2. go to route.rest , click Send request on "GET http://localhost:3000/subscribers" <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/235832885-0eaaa72c-024d-4395-bc79-1913133d656a.png)
+3. we should see an emply array ,because we have no subscribership <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/235832800-d8a33e95-97c1-4037-a7fc-90bb442bb60c.png)
+
+
+
+
 
 
 
