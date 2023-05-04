@@ -168,22 +168,36 @@ full code in commit 'add POST feature 2'
 (20:20) in video
 full code in commit "Getting One request"
 1. add below function in the botton on routes/subscribers.js  <br />
-   ![img!](https://user-images.githubusercontent.com/42502061/236122790-931097dd-cda1-417e-b74f-a759e5fcd0b7.png)
+   <img src="https://user-images.githubusercontent.com/42502061/236122790-931097dd-cda1-417e-b74f-a759e5fcd0b7.png width="400">
 2. use this function in the Getting One request route  <br />
-   ![img!](https://user-images.githubusercontent.com/42502061/236123353-3459655c-eca8-40bb-9faa-b30cd2182725.png)
+   <img src="https://user-images.githubusercontent.com/42502061/236123353-3459655c-eca8-40bb-9faa-b30cd2182725.png width="400">
 
 #### test out the request
 1. pick up a subscribers id by send GET request  <br />
-   ![img!](https://user-images.githubusercontent.com/42502061/236123634-b8b82064-0df7-4a83-aab6-c506f8647ec1.png)
+   <img src="https://user-images.githubusercontent.com/42502061/236123634-b8b82064-0df7-4a83-aab6-c506f8647ec1.png" width="400">
 2. from the response , copy a id  <br />
-   ![img!](https://user-images.githubusercontent.com/42502061/236123833-564ba57f-5658-4da7-adbd-eaf62bb87f48.png)
+   <img src="https://user-images.githubusercontent.com/42502061/236123833-564ba57f-5658-4da7-adbd-eaf62bb87f48.png" width="400">
 3. put it to the end of a get request  <br />
-   ![img!](https://user-images.githubusercontent.com/42502061/236123982-b868eae1-dd72-4ec7-8dfc-434d9d3ff0fd.png)
+   <img src="https://user-images.githubusercontent.com/42502061/236123982-b868eae1-dd72-4ec7-8dfc-434d9d3ff0fd.png" width="300">
 4. click send request
 5. will appear data for that id <br />
-   ![img!](https://user-images.githubusercontent.com/42502061/236124236-b0c036df-7b31-4aae-b2a0-79ef32ec110e.png)
-   
+   <img src="https://user-images.githubusercontent.com/42502061/236124236-b0c036df-7b31-4aae-b2a0-79ef32ec110e.png" width="400">
 
+# Step 12
+#### set up and test Delete request
+(24:40) in video
+full code in commit "set up and test Delete request"
+1. add delete route code as below, we are using "deleteOne()" here , which is different with what the video had ad "remove()", because the "remove()" is not working
+   <br />
+   <img width="498" alt="Screen Shot 2023-05-04 at 12 02 34 AM" src="https://user-images.githubusercontent.com/42502061/236133293-1e16f5fa-2307-4168-9a79-4b9d5971b4eb.png">
+2. add a Delete testing route on route.rest file , and click send Request <br />
+   <img width="514" alt="Screen Shot 2023-05-03 at 11 47 27 PM" src="https://user-images.githubusercontent.com/42502061/236130645-9fc36236-ea4a-4486-ad2f-1fa8be938be1.png">
+3. Response show "Deleted Subscriber" <br />
+   <img width="415" alt="Screen Shot 2023-05-03 at 11 58 06 PM" src="https://user-images.githubusercontent.com/42502061/236132535-dc10f610-dd80-4557-8ca0-9a4ebc679afe.png">
+4. try get request on that id again <br />
+   <img width="503" alt="Screen Shot 2023-05-04 at 12 00 08 AM" src="https://user-images.githubusercontent.com/42502061/236132892-f5ccabe6-d158-40b5-8e3c-68b05bf645ee.png">
+5. Response show "Cannot find subscriber" because deleted successfully  <br />
+   <img width="414" alt="Screen Shot 2023-05-04 at 12 00 03 AM" src="https://user-images.githubusercontent.com/42502061/236132899-aa258ebb-6ea0-4d1b-b1ae-7c183a6bb4f4.png">
 
    
 

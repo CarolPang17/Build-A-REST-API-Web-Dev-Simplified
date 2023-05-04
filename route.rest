@@ -13,6 +13,8 @@ Content-Type: application/json
   "subscriberToChannel": "Hogwarts School daily news "
 }
 
+###
+DELETE  http://localhost:3000/subscribers/6451e718c75dbca140e35059
 
 
 
