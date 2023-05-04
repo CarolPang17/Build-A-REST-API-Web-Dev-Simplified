@@ -145,16 +145,24 @@ full code in commit 'GET feature setup'
 
 # Step 10
 #### adding post feature on routes
-(116:10)in video
-full code in commit 'add POST feature'
+(16:10)in video
+full code in commit 'add POST feature 2'
 
 1. replace the POST '/' section to <br />
   ![img!](https://user-images.githubusercontent.com/42502061/235834712-7f6a33ce-430e-46a6-a39f-ba6caec8d5f8.png)
 1. try out on route.rest by adding below code <br />
   ![img!](https://user-images.githubusercontent.com/42502061/235834835-4beb2243-eb77-4f05-bce4-fed5c50fc8b2.png)
 1. click on Send Request
-2. should see response like:
+2. should see response like: <br />
    ![img!](https://user-images.githubusercontent.com/42502061/235834920-db15c59a-225b-40da-8f1a-6e581d995c23.png)
+
+#### try out error message from POST
+1. missing the "name" , only pass in "subscriberToChannel" in POST request <br />
+    ![img!](https://user-images.githubusercontent.com/42502061/236118349-f7a218d5-2bef-43e1-add1-448b248c6180.png)
+2. click Send Request
+3. a "400" bad request will appear, and also a error message <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/236119488-ccdbecf3-f5d3-4c89-85f9-0d883d992ebe.png)
+
 
 
 

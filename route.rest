@@ -7,9 +7,10 @@ GET http://localhost:3000/subscribers/15
 ###
 POST http://localhost:3000/subscribers
 Content-Type: application/json
+
 {
-  "name": "Happy Cat",
-  "subscriberToChannel": "Hello Kitty Channel"
+  "name": "Harry Potter",
+  "subscriberToChannel": "Hogwarts School daily news "
 }
 
 
