@@ -163,6 +163,29 @@ full code in commit 'add POST feature 2'
 3. a "400" bad request will appear, and also a error message <br />
    ![img!](https://user-images.githubusercontent.com/42502061/236119488-ccdbecf3-f5d3-4c89-85f9-0d883d992ebe.png)
 
+# Step 11
+#### set up Getting One request
+(20:20) in video
+full code in commit "Getting One request"
+1. add below function in the botton on routes/subscribers.js  <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/236122790-931097dd-cda1-417e-b74f-a759e5fcd0b7.png)
+2. use this function in the Getting One request route  <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/236123353-3459655c-eca8-40bb-9faa-b30cd2182725.png)
+
+#### test out the request
+1. pick up a subscribers id by send GET request  <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/236123634-b8b82064-0df7-4a83-aab6-c506f8647ec1.png)
+2. from the response , copy a id  <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/236123833-564ba57f-5658-4da7-adbd-eaf62bb87f48.png)
+3. put it to the end of a get request  <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/236123982-b868eae1-dd72-4ec7-8dfc-434d9d3ff0fd.png)
+4. click send request
+5. will appear data for that id <br />
+   ![img!](https://user-images.githubusercontent.com/42502061/236124236-b0c036df-7b31-4aae-b2a0-79ef32ec110e.png)
+   
+
+
+   
 
 
 
