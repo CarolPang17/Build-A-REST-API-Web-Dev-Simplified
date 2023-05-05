@@ -2,21 +2,28 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/6451e718c75dbca140e35059
+GET http://localhost:3000/subscribers/64547c7c40d9e9b356613ebd
 
 ###
 POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-  "name": "Harry Potter",
-  "subscriberToChannel": "Hogwarts School daily news "
+  "name": "meow meow",
+  "subscriberToChannel": "Cat Channel"
 }
 
 ###
 DELETE  http://localhost:3000/subscribers/6451e718c75dbca140e35059
 
+###
 
+PATCH  http://localhost:3000/subscribers/64547f42406431b5271320a1
+Content-Type: application/json
+
+{
+  "name": "Taco Ben"
+}
 
 
 
